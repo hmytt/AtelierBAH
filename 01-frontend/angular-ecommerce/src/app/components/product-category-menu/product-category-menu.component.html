@@ -1,0 +1,25 @@
+<div class="menu-sidebar-content js-scrollbar1">
+    <nav class="navbar-sidebar">
+        <ul class="list-unstyled navbar-list">
+
+
+            <li>
+                <p style="color: #fff; font-size: 13px;">L’Atelier BAH vous propose une sélection de produits design et colorés au meilleur prix toute l’année
+                    pour aménager votre intérieur. Découvrez notre univers mêlant décoration, papeterie et lifestyle.
+                    </p>
+            </li>
+
+            <li *ngFor="let tempProductCategory of productCategories">
+
+                <a routerLink="/category/{{ tempProductCategory.id }}" routerLinkActive="active-link">
+                    {{ tempProductCategory.categoryName }}
+                </a>
+
+            </li>
+
+            <li><a routerLink="/inspiration" routerLinkActive="active-link">INSPIRATION</a></li>
+
+
+        </ul>
+    </nav>
+</div>
