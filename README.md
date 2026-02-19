@@ -1,6 +1,8 @@
 # AtelierBAH
 Project CDA
 
+Une plateforme e-commerce qui permet aux clients de commander leurs articles en ligne et les faire livrer à domicile. L’objectif principal de la solution est d’offrir aux employés et au public un outil centralisé et ergonomique permettant de consulter le catalogue des produits, rechercher un produit et acheter des produits.
+
 <img width="959" height="539" alt="resim" src="https://github.com/user-attachments/assets/43867ac1-7c76-4788-bd94-00285ad4d06f" />
 
 <img width="965" height="535" alt="resim" src="https://github.com/user-attachments/assets/07cf8081-9567-48b0-8b82-4bff9a9d3ca4" />
